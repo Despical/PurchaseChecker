@@ -1,0 +1,79 @@
+.p-footer-custom .xb-footer-block h3 {
+    font-size: 14px;
+    color: #2D8AC8;
+    font-weight: 700;
+    padding: 5px 0;
+    margin: 0;
+    text-align: left;
+}
+
+.p-footer-custom .xb-footer--wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 10px;
+    gap: 270px;
+    width: 100%;
+}
+
+.p-footer-custom .footer-section {
+    flex: 1;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    width: 100%;
+    max-width: 220px;
+}
+
+.p-footer-custom .footer-section h4 {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 6px;
+    text-align: left;
+}
+
+.p-footer-custom .footer-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+.p-footer-custom .footer-section ul li {
+    margin: 5px 0;
+}
+
+.p-footer-custom .footer-section ul li a {
+    color: #bdc4d1;
+    text-decoration: none;
+    display: block;
+}
+
+.p-footer-custom .footer-section ul li a:hover {
+    color: #fff;
+}
+
+.p-footer-custom .footer-line {
+    border-top: 1px solid #2f3d59;
+    margin: 20px auto;
+    width: 90%;
+}
+
+.p-footer-custom .copyright-message {
+    text-align: center;
+    font-size: 11px;
+    color: #bdc4d1;
+    margin: 0;
+}
+
+footer {
+    background-color: #161b22;
+    color: #8b949e;
+    text-align: center;
+    padding: 1rem;
+    bottom: 0;
+    width: 100%;
+}

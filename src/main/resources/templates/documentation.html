@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Documentations</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.5.1/github-markdown-light.min.css">
+    <link rel="stylesheet" th:href="@{/css/documentation.css}">
+    <link rel="stylesheet" th:href="@{/css/docs-header.css}">
+</head>
+
+<body>
+
+<div th:replace="~{fragments/docs-header::navbar}"></div>
+
+<div class="sidebar">
+    <h3 th:text="${title}">></h3>
+    <ul id="folder-list">
+    </ul>
+</div>
+
+<div class="main">
+    <div class="content markdown-body" th:utext="${content}"></div>
+
+    <div class="toc" id="toc">
+        <h2>Table of Contents</h2>
+        <ul id="toc-list"></ul>
+    </div>
+</div>
+
+<script th:src="@{/js/documentation.js}"></script>
+</body>
+</html>

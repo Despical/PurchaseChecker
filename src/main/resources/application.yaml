@@ -1,0 +1,36 @@
+spring:
+  application:
+    name: "Purchase Checker"
+  datasource:
+    url: ${DATABASE_URL}
+    username: root
+    password: ${DATABASE_PASSWORD}
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: create-drop
+  thymeleaf:
+    cache: false
+  jwt:
+    secret: ${JWT_SECRET}
+
+logging:
+  level:
+    me.despical.purchasechecker.exceptions.NoSuchRoleException: OFF
+
+discord:
+  client-id: ${DISCORD_CLIENT_ID}
+  client-secret: ${DISCORD_CLIENT_SECRET}
+  redirect-uri: ${DISCORD_REDIRECT_URI}
+  bot-token: ${DISCORD_BOT_TOKEN}
+  guild-id: ${DISCORD_GUILD_ID}
+  secret: ${DISCORD_JWT_SECRET}
+  verifyTokenExpiration: 30
+  roles:
+    116086: ${EASTER_EGGS_ROLE_ID}
+    116224: ${CAROUSEL_ROLE_ID}
+    116575: ${ITEM_UPGRADER_ROLE_ID}
+    116884: ${EAT_EVERYTHING_ROLE_ID}
+    117447: ${WARDEN_PARTY_ROLE_ID}
+    117862: ${TNT_TAG_ROLE_ID}
+    120508: ${THE_SNAKE_ROLE_ID}
