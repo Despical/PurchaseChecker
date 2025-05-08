@@ -16,12 +16,12 @@ source of the products purchased.
 ## Contributing
 
 I accept Pull Requests via GitHub. There are some guidelines which will make applying PRs easier for me:
-+ Ensure you didn't use spaces! Please use tabs for indentation.
++ Ensure you didn't use tabs! Please use spaces for indentation.
 + Respect the code style.
 + Do not increase the version numbers in any examples files and the README.md to the new version that this Pull Request would represent.
 + Create minimal diffs - disable on save actions like reformat source code or organize imports. If you feel the source code should be reformatted create a separate PR for this change.
 
-You can learn more about contributing via GitHub in [contribution guidelines](../CONTRIBUTING.md).
+You can learn more about contributing via GitHub in [contribution guidelines](CONTRIBUTING.md).
 
 ## License
 This code is under the [GPL-3.0 License](http://www.gnu.org/licenses/gpl-3.0.html).
