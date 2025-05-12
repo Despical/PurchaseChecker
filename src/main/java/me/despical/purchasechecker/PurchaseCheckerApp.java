@@ -9,9 +9,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * Created at 19.04.2025
  */
 @SpringBootApplication
-public class SpringTestApplication {
+public class PurchaseCheckerApp {
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringTestApplication.class, args);
+        SpringApplication.run(PurchaseCheckerApp.class, args);
     }
 }
